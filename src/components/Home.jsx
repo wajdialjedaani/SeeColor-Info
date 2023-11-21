@@ -8,23 +8,22 @@ const Home = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">The</span> Project For{" "}
-            <span className="text-white">Accessibility</span> Tool.
+            <span className="text-white">The SeeColor Accesibility Tool Project </span>
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             The All-in-one <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Accessibility</span>{" "}
+            <span className="text-gradient">Color-Blindness</span>{" "}
           </h1>
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Extension Suite.
+          Testing Suite.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Accessibility Extension allows users to personalize website's design and interface to their individual preference or assists disabilities in accessing website effectively.
+          The SeeColor Extension allows users to effortlessly test images for different criteria relating to color-blind accessibility, through a google chrome extension in browser.
         </p>
       </div>
 

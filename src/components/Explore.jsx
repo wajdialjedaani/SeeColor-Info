@@ -6,7 +6,7 @@ const Explore = () => (
     <div className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>Let’s try our extension!</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Information you need to know about installing the extension and starting to experience our tool.
+        Information you need to know about installing our extension and best practices for the use of the tool.
       </p>
     </div>
 

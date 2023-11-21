@@ -24,14 +24,14 @@ const Project = () =>  (
     <div className={`${layout.sectionInfo} flex justify-center items-center`}>
       <div className="text-center">
         <h2 className={styles.heading2}>
-          How does the <span className="text-gradient">accessibility extension</span> work<br className="sm:block hidden" />
+          How does the <span className="text-gradient">SeeColor accessibility extension</span> work<br className="sm:block hidden" />
         </h2>
       </div>
       <p className={`${styles.paragraph} max-w-[470px] mt-5 text-justify`}>
-        The extension is developed to solve accessibility difficulties relating to the UI, design, and readability of websites by enabling users to modify users' website design to meet their individual needs.
+        The extension is developed to solve accessibility difficulties relating to the design and readability of images by enabling users to test different image designs for how accessible the images are for those with different color-blindness conditions.
         <br />
         <br />
-        Users can choose different accessibility features like "Text to Speech" and simultaneously activate all relevant adjustments. Additionally, users can enable singular feature such as adjusting font sizes, change text and scheme color, text spacing, focus ruler, and more.
+        Users can run a simple image test and simultaneously receive all relevant results for the three main color-blindness variants. Additionally, users can receive a report with the failing contrast values in a score format which shows them what colors cause the most issues in the image based on ACBB standards.
       </p>
       <img src={popup} alt="popup" className="w-[60%] rounded-2xl mt-10"/>
     </div>

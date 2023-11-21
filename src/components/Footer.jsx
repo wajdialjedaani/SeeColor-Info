@@ -12,7 +12,7 @@ const Footer = () => (
           </a>
         </div>
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          A new tool to improve your web's experience easy, pleasing and effective.
+          A new tool to test whether your visual content is truly accessible in all the spectrums.
         </p>
       </div>
 
