@@ -32,7 +32,7 @@ export const feature = [
     icon: align,
     title: "Text Configurations",
     content:
-      "Adjust website'content to make it more inclusive and easily accessible to individuals with disabilities.",
+      "Adjust website's content to make it more inclusive and easily accessible to individuals with disabilities.",
   },
   {
     id: "feature-3",
