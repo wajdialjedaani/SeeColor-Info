@@ -24,22 +24,15 @@ const Project = () =>  (
     <div className={`${layout.sectionInfo} flex justify-center items-center`}>
       <div className="text-center">
         <h2 className={styles.heading2}>
-          How does the <span className="text-gradient">SeeColor accessibility extension</span> work<br className="sm:block hidden" />
+          How does the <span className="text-gradient">SeeColor accessibility library</span> work?<br className="sm:block hidden" />
         </h2>
       </div>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-justify`}>
-        The extension is developed to solve accessibility difficulties relating to the design and readability of images by enabling users to test different image designs for how accessible the images are for those with different color-blindness conditions.
+      <p className={`${styles.paragraph} max-w-[70%] mt-5 text-justify`}>
+        The library (the website and extensions) are developed to solve accessibility difficulties relating to the design and readability of images by enabling users to test different image designs for how accessible the images are for those with different color-blindness conditions.
         <br />
         <br />
         Users can run a simple image test and simultaneously receive all relevant results for the three main color-blindness variants. Additionally, users can receive a report with the failing contrast values in a score format which shows them what colors cause the most issues in the image based on WCAG standards.
       </p>
-      <img src={popup} alt="popup" className="w-[60%] rounded-2xl mt-10"/>
-    </div>
-
-    <div className={`${layout.sectionImg} flex-col`}>
-      {feature.map((feature, index) => (
-        <FeatureCard key={feature.id} {...feature} index={index} />
-      ))}
     </div>
   </section>
 );

@@ -76,6 +76,18 @@ export const footerLinks = [
         name: "ADA Title III",
         link: "https://www.ada.gov/resources/web-guidance/",
       },
+      {
+        name: "Section 508",
+        link: "https://www.section508.gov/",
+      },
+      {
+        name: "EU Accessibility Directive",
+        link: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf",
+      },
+      {
+        name: "What is color blindless?",
+        link: "https://www.urmc.rochester.edu/encyclopedia/content.aspx?contenttypeid=134&contentid=526",
+      }
     ],
   },
   {

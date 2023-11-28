@@ -23,7 +23,9 @@ const Home = () => {
           Testing Suite.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          The SeeColor Extension allows users to effortlessly test images for different criteria relating to color-blind accessibility, through a google chrome extension in browser.
+          The SeeColor Website allows users to effortlessly test images for different criteria relating to color-blind accessibility by uploading images.
+          <br /> <br />
+          The website also provides users with a report of the image's accessibility based on WCAG standards.
         </p>
       </div>
 
