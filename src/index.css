@@ -18,6 +18,15 @@
   scroll-behavior: smooth;
 }
 
+.bg {
+  background: linear-gradient(
+    144.39deg,
+    #f1f1f1 -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
