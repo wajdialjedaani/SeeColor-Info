@@ -28,7 +28,7 @@ const Project = () =>  (
         </h2>
       </div>
       <p className={`${styles.paragraph} max-w-[70%] mt-5 text-justify`}>
-        The library (the website and Chrome extension) are developed to solve accessibility difficulties relating to the design and readability of images by enabling users to test different image designs for how accessible the images are for those with different color-blindness conditions.
+        The library (the website and Chrome extension) was developed to solve accessibility difficulties relating to the design and readability of images by enabling users to test different image designs for how accessible the images are for those with different color-blindness conditions.
         <br />
         <br />
         Users can run a simple image test and simultaneously receive all relevant results for the three main color-blindness variants. Additionally, users can receive a report with the failing contrast values in a score format which shows them what colors cause the most issues in the image based on WCAG standards.

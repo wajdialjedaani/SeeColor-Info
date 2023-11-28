@@ -12,7 +12,7 @@ const DisplayAdjustments = () => (
         <h2 className={`${styles.heading2} flex justify-center text-gradient`}>Chrome Extension</h2>
         <div className="flex justify-center">
             <p className={`${styles.paragraph} w-[90%] mt-5 text-justify`}>
-            The Chrome extension of the website provide the same functionality as the website, but with the added benefit of being able to use the extension on any website with publicly accessible images.
+            The Chrome extension of the website provides the same functionality as the website, but with the added benefit of being able to use the extension on any website with publicly accessible images.
             <br /><br />
             Download information for the extension can be found down below.
             </p>
