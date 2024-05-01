@@ -1,6 +1,6 @@
 import styles from "../style";
 import Button from "./Button";
-import chrome_install from "../assets/chrome_install.mp4";
+import chrome_install from "../assets/new_video.mp4";
 
 const Explore = () => (
   <section id="explore" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
